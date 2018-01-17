@@ -14,7 +14,7 @@ from .map import check_map_exists, download_sscait_maps
 from .player import HumanPlayer, PlayerRace, bot_regex
 from .utils import random_string, get_data_dir
 from .vnc import check_vnc_exists
-VERSION = '0.2a8'
+VERSION = '0.2a9'
 logger = logging.getLogger(__name__)
 base_dir = get_data_dir()
 SC_LOG_DIR = ('%s/logs' % (base_dir, ))

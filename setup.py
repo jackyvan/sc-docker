@@ -41,7 +41,7 @@ setup(
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.4',
     ],
     keywords='starcraft docker broodwar ai bot',
     install_requires=['requests',
@@ -58,7 +58,7 @@ setup(
             'scbw=scbw:main',
         ],
     },
-    python_requires='>=3.6',
+    python_requires='>=3.4',
 
     data_files=[('scbw_local_docker', ['scbw/local_docker/game.dockerfile',
                                        'scbw/local_docker/default.mpc',
